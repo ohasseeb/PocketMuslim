@@ -1,0 +1,152 @@
+{
+    "Adhan": {
+        "Translation": {
+            "line1": "God is Great",
+            "line2": "God is Great",
+            "line3": "God is Great",
+            "line4": "God is Great",
+            "line5": "I bear witness that there is no god but God",
+            "line6": "I bear witness that there is no god but God",
+            "line7": "I bear witness that Muhammad is the Messenger of God",
+            "line8": "I bear witness that Muhammad is the Messenger of God",
+            "line9": "Hasten to the prayer",
+            "line10": "Hasten to the prayer",
+            "line11": "Hasten to salvation",
+            "line12": "Hasten to salvation",
+            "line13": "God is Great",
+            "line14": "God is Great",
+            "line15": "There is no god but God"
+        },
+        "Transliteration": {
+            "line1": "Allahu Akbar",
+            "line2": "Allahu Akbar",
+            "line3": "Allahu Akbar",
+            "line4": "Allahu Akbar",
+            "line5": "Ashhadu an la ilaha illa Allah",
+            "line6": "Ashhadu an la ilaha illa Allah",
+            "line7": "Ashhadu anna Muhammadan Rasool Allah",
+            "line8": "Ashhadu anna Muhammadan Rasool Allah",
+            "line9": "Hayya 'ala-s-Salah",
+            "line10": "Hayya 'ala-s-Salah",
+            "line11": "Hayya 'ala-l-Falah",
+            "line12": "Hayya 'ala-l-Falah",
+            "line13": "Allahu Akbar",
+            "line14": "Allahu Akbar",
+            "line15": "La ilaha illa Allah"
+        }
+    },
+    "Iqama": {
+        "Translation": {
+            "line1": "God is Great",
+            "line2": "God is Great",
+            "line3": "I bear witness that there is no god but God",
+            "line4": "I bear witness that Muhammad is the Messenger of God",
+            "line5": "Hasten to the prayer",
+            "line6": "Hasten to salvation",
+            "line7": "The prayer is ready to begin",
+            "line8": "The prayer is ready to begin",
+            "line9": "God is Great",
+            "line10": "God is Great",
+            "line11": "There is no god but God"
+        },
+        "Transliteration": {
+            "line1": "Allahu Akbar",
+            "line2": "Allahu Akbar",
+            "line3": "Ashhadu an la ilaha illa Allah",
+            "line4": "Ashhadu anna Muhammadan Rasool Allah",
+            "line5": "Hayya 'ala-s-Salah",
+            "line6": "Hayya 'ala-l-Falah",
+            "line7": "Qad qamatis Salah",
+            "line8": "Qad qamatis Salah",
+            "line9": "Allahu Akbar",
+            "line10": "Allahu Akbar",
+            "line11": "La ilaha illa Allah"
+        }
+    },
+    "AyatAlKursi": {
+        "Transliteration": {
+            "line1": "Allahu laaa ilaaha illaa huwal haiyul qai-yoom;",
+            "line2": "laa taakhuzuhoo sinatunw wa laa nawm;",
+            "line3": "lahoo maa fissamaawaati wa maa fil ard;",
+            "line4": "man zallazee yashfa'u indahooo illaa be iznih;",
+            "line5": "ya'lamu maa baina aideehim wa maa khalfahum;",
+            "line6": "wa laa yuheetoona beshai 'immin 'ilmihee illa be maa shaaaa;",
+            "line7": "wasi'a kursiyyuhus samaa waati wal arda",
+            "line8": "wa la ya'ooduho hifzuhumaa;",
+            "line9": "wa huwal aliyyul 'azeem"
+        },
+        "Translation": {
+            "line1": "Allah! There is no god but He - the Living, the Self-subsisting, Eternal.",
+            "line2": "No slumber can seize Him nor Sleep.",
+            "line3": "His are all things in the heavens and on earth.",
+            "line4": "Who is there that can intercede in His presence except as he permitteth?",
+            "line5": "He knoweth what (appeareth to His creatures As) Before or After or Behind them.",
+            "line6": "Nor shall they compass aught of His knowledge except as He willeth.",
+            "line7": "His throne doth extend over the heavens and on earth,",
+            "line8": "and He feeleth no fatigue in guarding and preserving them,",
+            "line9": "For He is the Most High, the Supreme (in glory)."
+        }
+    },
+    "DuaQunoot": {
+        "Transliteration": {
+            "line1": "Allah humma inna nasta-eenoka",
+            "line2": "wa nastaghfiruka wa nu'minu bika",
+            "line3": "wa natawakkalu alaika wa nusni alaikal khair,",
+            "line4": "wa nashkuruka wala nakfuruka wa nakhla-oo ",
+            "line5": "wa natruku mai yafjuruka,",
+            "line6": "Allah humma iyyaka na'budu wa laka nusalli wa nasjud;",
+            "line7": "wa ilaika nas aaa wa nahfizu",
+            "line8": "wa narju rahma taka wa nakhshaa azaabaka;",
+            "line9": "inna azaabaka bil kuffari mulhik."
+        },
+        "Translation": {
+            "line1": "O Allah! We implore You for help",
+            "line2": "and beg forgiveness of You and believe in You",
+            "line3": "and rely on You and extol You and we are thankful to You and are not ungrateful to You",
+            "line4": "and we alienate and forsake those who disobey You.",
+            "line5": "O Allah! You alone do we worship and for You do we pray and prostrate;",
+            "line6": "and we betake to please You and present ourselves for the service in Your cause",
+            "line7": "and we hope for Your mercy",
+            "line8": "and fear Your chastisement;",
+            "line9": "Undoubtedly, Your torment is going to overtake infidels O Allah!"
+        }
+    },
+    "Partial_Tashahud": {
+        "Transliteration": {
+            "line1": "Attahiyyaatu lillaahi wassalawaatu wattayyibatu.",
+            "line2": "Assalaamu 'alayka ayyuhan-Nabiyyi warahmatullaahi wabarakaatuh.",
+            "line3": "Assalaamu 'alyna wa 'ala 'ibaadillaahis saaliheen.",
+            "line4": "Ash-hadu an laa ilaaha illallaah wa ash-hadu anna Muhammadan 'abduhu wa rasooluh.",
+            "line5": "Allaahumma salli 'ala Muhammad wa 'ala aali Muhammad"
+        },
+        "Translation": {
+            "line1": "All compliments, prayers, and pure words are due to Allah.",
+            "line2": "Peace be upon you, O Prophet, and the mercy of Allah and His blessings.",
+            "line3": "Peace be upon us and upon the righteous servants of Allah.",
+            "line4": "I bear witness that there is no deity but Allah, and I bear witness that Muhammad is His servant and His messenger.",
+            "line5": "O Allah, send prayers upon Muhammad and upon the family of Muhammad"
+        }
+    },
+    "Full_Tashahud": {
+        "Transliteration": {
+            "line1": "Attahiyyaatu lillaahi wassalawaatu wattayyibatu.",
+            "line2": "Assalaamu 'alayka ayyuhan-Nabiyyi warahmatullaahi wabarakaatuh.",
+            "line3": "Assalaamu 'alyna wa 'ala 'ibaadillaahis saaliheen.",
+            "line4": "Ash-hadu an laa ilaaha illallaah wa ash-hadu anna Muhammadan 'abduhu wa rasooluh.",
+            "line5": "Allaahumma salli 'ala Muhammad wa 'ala aali Muhammad",
+            "line6": "kama sallaita 'ala Ibraaheem wa 'ala aali Ibraaheem innaka Hameedun Majeed,",
+            "line7": "wabaarik 'ala Muhammad wa 'ala aali Muhammad",
+            "line8": "kama baarakta 'ala Ibraaheem wa 'ala aali Ibraaheem innaka Hameedun Majeed."
+        },
+        "Translation": {
+            "line1": "All compliments, prayers, and pure words are due to Allah.",
+            "line2": "Peace be upon you, O Prophet, and the mercy of Allah and His blessings.",
+            "line3": "Peace be upon us and upon the righteous servants of Allah.",
+            "line4": "I bear witness that there is no deity but Allah, and I bear witness that Muhammad is His servant and His messenger.",
+            "line5": "O Allah, send prayers upon Muhammad and upon the family of Muhammad",
+            "line6": "as You sent prayers upon Ibrahim and upon the family of Ibrahim. Indeed, You are Praiseworthy and Glorious.",
+            "line7": "O Allah, bless Muhammad and the family of Muhammad",
+            "line8": "as You blessed Ibrahim and the family of Ibrahim. Indeed, You are Praiseworthy and Glorious."
+        }
+    }
+}
