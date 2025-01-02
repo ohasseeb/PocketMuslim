@@ -1,13 +1,11 @@
 import React from 'react';
 import {Text, View, StyleSheet, ScrollView} from 'react-native';
 import SalatBlock from '../components/Block';
-import SalatDataJSON from '../jsonData/SalatData.json';
+import SurahDataJSON from '../jsonData/SurahData.json';
 
 const SurahsPage = () => {
-  const AdhanTransliterationLines = SalatDataJSON.Adhan.Transliteration;
-  const AdhanTranslationLines = SalatDataJSON.Adhan.Translation;
-
-  console.log(AdhanTranslationLines);
+  const AlFatihaTransliteration = SurahDataJSON.Surah_Al_Fatiha.Transliteration;
+  const AlFatihaTranslation = SurahDataJSON.Surah_Al_Fatiha.Translation;
 
   return (
     <View style={styles.container}>
@@ -15,8 +13,8 @@ const SurahsPage = () => {
       <ScrollView style={styles.scrollViewStyling}>
         <SalatBlock
           nameOfSalat="Al Fatiha"
-          transliterationLines={AdhanTransliterationLines}
-          translationLines={AdhanTranslationLines}
+          transliterationLines={AlFatihaTransliteration}
+          translationLines={AlFatihaTranslation}
         />
       </ScrollView>
     </View>
