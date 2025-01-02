@@ -3,12 +3,12 @@ import {useState} from 'react'; // Import useState for managing component state
 import {Text, View, TouchableOpacity, StyleSheet} from 'react-native';
 
 // Define the type for the component props
-type InnerSalatBlockProps = {
+type InnerBlockProps = {
   title: string; // Title of the salat block
   textObj: Object; // Object containing text lines
 };
 
-const InnerSalatBlock = (props: InnerSalatBlockProps) => {
+const InnerBlock = (props: InnerBlockProps) => {
   // Define state for whether the salat block is open or closed
   const [salatBlockOpen, setSalatBlockOpen] = useState(false);
 
@@ -46,7 +46,7 @@ const InnerSalatBlock = (props: InnerSalatBlockProps) => {
   );
 };
 
-export default InnerSalatBlock;
+export default InnerBlock;
 
 // Styles for the component
 const styles = StyleSheet.create({

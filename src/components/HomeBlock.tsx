@@ -1,11 +1,8 @@
 import React from 'react';
 import {Text, View, TouchableOpacity, StyleSheet} from 'react-native';
 import {useEffect, useState} from 'react';
-import {NavigationContainer, useNavigation} from '@react-navigation/native';
-import {
-  NativeStackNavigationProp,
-  createNativeStackNavigator,
-} from '@react-navigation/native-stack';
+import {useNavigation} from '@react-navigation/native';
+import {NativeStackNavigationProp} from '@react-navigation/native-stack';
 import {RootStackParams} from '../../App';
 
 type HomeBlockProps = {
@@ -43,7 +40,7 @@ export default function HomeBlock(props: HomeBlockProps) {
         setBgColor('#FFFFFF');
         break;
     }
-  }, [props.blockColor]);
+  }, [props.blockColor, props.navigationTo]);
   // Run effect when props.blockColor changes
 
   return (

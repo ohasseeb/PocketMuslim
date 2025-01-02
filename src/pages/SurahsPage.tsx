@@ -1,11 +1,24 @@
 import React from 'react';
-import {Text, View, StyleSheet} from 'react-native';
-import SurahBlock from '../components/SurahBlock';
+import {Text, View, StyleSheet, ScrollView} from 'react-native';
+import SalatBlock from '../components/Block';
+import SalatDataJSON from '../jsonData/SalatData.json';
+
 const SurahsPage = () => {
+  const AdhanTransliterationLines = SalatDataJSON.Adhan.Transliteration;
+  const AdhanTranslationLines = SalatDataJSON.Adhan.Translation;
+
+  console.log(AdhanTranslationLines);
+
   return (
     <View style={styles.container}>
-      <Text>Surahs PAge</Text>
-      <SurahBlock nameOfSurah="Al Fatiha" />
+      <Text> Surahs Page</Text>
+      <ScrollView style={styles.scrollViewStyling}>
+        <SalatBlock
+          nameOfSalat="Al Fatiha"
+          transliterationLines={AdhanTransliterationLines}
+          translationLines={AdhanTranslationLines}
+        />
+      </ScrollView>
     </View>
   );
 };

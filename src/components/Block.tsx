@@ -2,7 +2,7 @@ import React from 'react';
 import {useState} from 'react';
 import {Text, View, TouchableOpacity, StyleSheet} from 'react-native';
 // import SalatDataJSON from '../jsonData/SalatData.json';
-import InnerSalatBlock from './InnerSalatBlock';
+import InnerSalatBlock from './InnerBlock';
 
 type SalatProps = {
   nameOfSalat?: string;
@@ -10,13 +10,15 @@ type SalatProps = {
   translationLines?: Object;
 };
 
-const SalatBlock = (props: SalatProps) => {
+const Block = (props: SalatProps) => {
   const [salatBlockOpen, setSalatBlockOpen] = useState(false); // Inferred to be a bool
+  console.log(props);
   //   const transliterationLines = SalatDataJSON.Adhan.Transliteration;
   //   const translationLines = SalatDataJSON.Adhan.Translation;
 
   function openCloseSalatBlock() {
     setSalatBlockOpen(!salatBlockOpen);
+    console.log(salatBlockOpen);
     // // const transliterationLength = Object.keys(
     // //   SalatDataJSON.Adhan.Transliteration,
     // // ).length;
@@ -36,17 +38,18 @@ const SalatBlock = (props: SalatProps) => {
           </View>
         </View>
       </TouchableOpacity>
-      {salatBlockOpen && (
+      {salatBlockOpen && props.transliterationLines && (
         <View style={styles.salatBlockView}>
           <InnerSalatBlock
             title="Transliteration"
             textObj={props.transliterationLines}
           />
-          <InnerSalatBlock
-            title="Translation"
-            textObj={props.translationLines}
-          />
-
+          {props.translationLines && (
+            <InnerSalatBlock
+              title="Translation"
+              textObj={props.translationLines}
+            />
+          )}
           {/* To Do Later  */}
           {/* <InnerSalatBlock title="Definition" textObj={' '} /> */}
           <TouchableOpacity
@@ -60,7 +63,7 @@ const SalatBlock = (props: SalatProps) => {
   );
 };
 
-export default SalatBlock;
+export default Block;
 
 const styles = StyleSheet.create({
   rootViewStyling: {

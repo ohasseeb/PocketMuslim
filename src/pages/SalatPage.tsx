@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, StyleSheet, ScrollView} from 'react-native';
-import SalatBlock from '../components/SalatBlock';
+import SalatBlock from '../components/Block';
 import SalatDataJSON from '../jsonData/SalatData.json';
 
 const AdhanTransliterationLines = SalatDataJSON.Adhan.Transliteration;
@@ -57,6 +57,11 @@ const SalatPage = () => {
           nameOfSalat=" Full Tashahud"
           transliterationLines={FullTashaHudTransliteration}
           translationLines={FullTashaHudTranslation}
+        />
+        <SalatBlock
+          nameOfSalat="Al Fatiha"
+          transliterationLines={AdhanTransliterationLines}
+          translationLines={AdhanTranslationLines}
         />
       </ScrollView>
     </View>
